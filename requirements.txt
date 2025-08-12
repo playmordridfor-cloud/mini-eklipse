@@ -1,0 +1,10 @@
+yt-dlp
+ffmpeg-python
+librosa==0.11.0
+numpy
+scipy
+opencv-python
+tqdm
+soundfile
+scikit-learn
+numba

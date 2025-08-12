@@ -1,0 +1,82 @@
+{
+  "video_base": {
+    "assumed_resolution": [
+      1920,
+      1080
+    ],
+    "fps_hint": 60
+  },
+  "rois": {
+    "killfeed": {
+      "x": 20,
+      "y": 90,
+      "w": 520,
+      "h": 360
+    },
+    "victory_banner": {
+      "x": 380,
+      "y": 260,
+      "w": 1160,
+      "h": 560
+    },
+    "elims_counter": {
+      "x": 1740,
+      "y": 980,
+      "w": 160,
+      "h": 80
+    },
+    "inventory_bar": {
+      "x": 640,
+      "y": 960,
+      "w": 640,
+      "h": 120
+    }
+  },
+  "keywords_pt": [
+    "matei",
+    "derrubei",
+    "eliminação",
+    "eliminei",
+    "coroa",
+    "vitória",
+    "victory royale",
+    "top 10",
+    "vamos",
+    "bora",
+    "clutch",
+    "insano",
+    "gg"
+  ],
+  "keywords_en": [
+    "eliminated",
+    "knocked",
+    "downed",
+    "victory royale",
+    "crown win",
+    "top 10",
+    "let's go",
+    "insane",
+    "clutch",
+    "gg"
+  ],
+  "scoring": {
+    "audio_rms_weight": 0.5,
+    "scene_cut_weight": 0.3,
+    "keyword_boost": 0.2,
+    "keyword_window_sec": 6.0
+  },
+  "render_916": {
+    "scale_to_height": 1920,
+    "crop_width": 1080,
+    "subtitles": {
+      "font_size": 36,
+      "outline": 2,
+      "y_offset": -100
+    },
+    "watermark": {
+      "enable": true,
+      "text": "FORTNITE HIGHLIGHTS",
+      "opacity": 0.4
+    }
+  }
+}

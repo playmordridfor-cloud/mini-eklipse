@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Eklipse - MVP</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        h1 {
+            color: #000;
+        }
+        form {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            width: 400px;
+            text-align: center;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background-color: black;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #333;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mini Eklipse - MVP</h1>
+    <form action="/process" method="post">
+        <label for="vod_url">Cole o link do VOD da Twitch:</label>
+        <input type="text" id="vod_url" name="vod_url" placeholder="https://www.twitch.tv/videos/XXXXXXXXX" required>
+        <p>Ex.: abra seu canal → Vídeos → clique na live gravada → copie o link.</p>
+        <button type="submit">Processar</button>
+    </form>
+</body>
+</html>
